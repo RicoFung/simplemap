@@ -1,0 +1,10 @@
+<!--pages/map/search.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <input class=" input-search" name="input" placeholder="请输入搜索关键字" value="{{searchValue}}"/>
+  </view>
+  <view class="btn-area">
+    <button class="btn-search" formType="submit">搜索</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>
